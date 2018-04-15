@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/adrianb3/MEGA/Learning/AdvancedCpp/ThreadTutorial/DataRace_Mutex/main.cpp
+iostream
+-
+thread
+-
+mutex
+-
+

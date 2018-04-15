@@ -1,0 +1,3 @@
+/home/adrianb3/MEGA/Learning/AdvancedCpp/ThreadTutorial/ThreadManagement/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/adrianb3/MEGA/Learning/AdvancedCpp/ThreadTutorial/ThreadManagement/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/adrianb3/MEGA/Learning/AdvancedCpp/ThreadTutorial/ThreadManagement/cmake-build-debug/CMakeFiles/ThreadManagement.dir
