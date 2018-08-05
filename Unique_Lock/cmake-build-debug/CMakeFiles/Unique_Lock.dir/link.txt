@@ -1,0 +1,1 @@
+/usr/bin/c++   -pthread -g   CMakeFiles/Unique_Lock.dir/main.cpp.o  -o Unique_Lock 

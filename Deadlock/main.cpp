@@ -13,12 +13,12 @@ public:
     }
     void shared_print(std::string id, int value){
         std::lock_guard<std::mutex> locker(_mu);
-        std::cout << "From : " + id + " : " << value << "\n";
+        std::cout << "From " + id + " : " << value << "\n";
     }
 };
 
 void a_thread(Logger &log){
-    for (int i = 0; i > -100; i++) {
+    for (int i = 0; i > -100; i--) {
         log.shared_print("thread1", i);
     }
 }
@@ -31,6 +31,8 @@ int main() {
     for (int i = 0; i < 100; i++) {
         log.shared_print("main", i);
     }
+
+    /// TODO it
 
     thread1.join();
     return 0;

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/adrianb3/Dev/Cpp/MultithreadingCpp/Unique_Lock/main.cpp
+iostream
+-
+thread
+-
+mutex
+-
+fstream
+-
+
