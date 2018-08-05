@@ -1,1 +1,1 @@
-/usr/bin/c++  -std=c++11 -pthread -g   CMakeFiles/ThreadManagement.dir/main.cpp.o  -o ThreadManagement 
+/usr/bin/c++  -std=c++17 -pthread -g   CMakeFiles/ThreadManagement.dir/main.cpp.o  -o ThreadManagement 
