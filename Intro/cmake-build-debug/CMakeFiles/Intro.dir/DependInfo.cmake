@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/adrianb3/MEGA/Learning/AdvancedCpp/ThreadTutorial/Intro/main.cpp" "/home/adrianb3/MEGA/Learning/AdvancedCpp/ThreadTutorial/Intro/cmake-build-debug/CMakeFiles/Intro.dir/main.cpp.o"
+  "/home/adrianb3/Dev/Cpp/MultithreadingCpp/Intro/main.cpp" "/home/adrianb3/Dev/Cpp/MultithreadingCpp/Intro/cmake-build-debug/CMakeFiles/Intro.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

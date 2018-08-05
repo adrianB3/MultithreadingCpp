@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/adrianb3/MEGA/Learning/AdvancedCpp/ThreadTutorial/Intro/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/adrianb3/Dev/Cpp/MultithreadingCpp/Intro/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_912cd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_912cd.dir/build.make CMakeFiles/cmTC_912cd.dir/build
-make[1]: Entering directory '/home/adrianb3/MEGA/Learning/AdvancedCpp/ThreadTutorial/Intro/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_912cd.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_912cd.dir/CheckSymbolExists.c.o   -c /home/adrianb3/MEGA/Learning/AdvancedCpp/ThreadTutorial/Intro/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_912cd
-/home/adrianb3/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.4445.84/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_912cd.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_912cd.dir/CheckSymbolExists.c.o  -o cmTC_912cd 
-CMakeFiles/cmTC_912cd.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_2f856/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2f856.dir/build.make CMakeFiles/cmTC_2f856.dir/build
+make[1]: Entering directory '/home/adrianb3/Dev/Cpp/MultithreadingCpp/Intro/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2f856.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2f856.dir/CheckSymbolExists.c.o   -c /home/adrianb3/Dev/Cpp/MultithreadingCpp/Intro/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2f856
+/home/adrianb3/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f856.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_2f856.dir/CheckSymbolExists.c.o  -o cmTC_2f856 
+CMakeFiles/cmTC_2f856.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_912cd.dir/build.make:97: recipe for target 'cmTC_912cd' failed
-make[1]: *** [cmTC_912cd] Error 1
-make[1]: Leaving directory '/home/adrianb3/MEGA/Learning/AdvancedCpp/ThreadTutorial/Intro/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_912cd/fast' failed
-make: *** [cmTC_912cd/fast] Error 2
+CMakeFiles/cmTC_2f856.dir/build.make:86: recipe for target 'cmTC_2f856' failed
+make[1]: *** [cmTC_2f856] Error 1
+make[1]: Leaving directory '/home/adrianb3/Dev/Cpp/MultithreadingCpp/Intro/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_2f856/fast' failed
+make: *** [cmTC_2f856/fast] Error 2
 
-File /home/adrianb3/MEGA/Learning/AdvancedCpp/ThreadTutorial/Intro/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/adrianb3/Dev/Cpp/MultithreadingCpp/Intro/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/adrianb3/MEGA/Learning/AdvancedCpp/ThreadTutorial/Intro/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/adrianb3/Dev/Cpp/MultithreadingCpp/Intro/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_979ed/fast"
-/usr/bin/make -f CMakeFiles/cmTC_979ed.dir/build.make CMakeFiles/cmTC_979ed.dir/build
-make[1]: Entering directory '/home/adrianb3/MEGA/Learning/AdvancedCpp/ThreadTutorial/Intro/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_979ed.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_979ed.dir/CheckFunctionExists.c.o   -c /home/adrianb3/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.4445.84/bin/cmake/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_979ed
-/home/adrianb3/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.4445.84/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_979ed.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_979ed.dir/CheckFunctionExists.c.o  -o cmTC_979ed -lpthreads 
-/usr/bin/ld: cannot find -lpthreads
+Run Build Command:"/usr/bin/make" "cmTC_d8cf6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d8cf6.dir/build.make CMakeFiles/cmTC_d8cf6.dir/build
+make[1]: Entering directory '/home/adrianb3/Dev/Cpp/MultithreadingCpp/Intro/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8cf6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d8cf6.dir/CheckFunctionExists.c.o   -c /home/adrianb3/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d8cf6
+/home/adrianb3/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.3684.76/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8cf6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_d8cf6.dir/CheckFunctionExists.c.o  -o cmTC_d8cf6 -lpthreads 
+/usr/bin/x86_64-linux-gnu-ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_979ed.dir/build.make:97: recipe for target 'cmTC_979ed' failed
-make[1]: *** [cmTC_979ed] Error 1
-make[1]: Leaving directory '/home/adrianb3/MEGA/Learning/AdvancedCpp/ThreadTutorial/Intro/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_979ed/fast' failed
-make: *** [cmTC_979ed/fast] Error 2
+CMakeFiles/cmTC_d8cf6.dir/build.make:86: recipe for target 'cmTC_d8cf6' failed
+make[1]: *** [cmTC_d8cf6] Error 1
+make[1]: Leaving directory '/home/adrianb3/Dev/Cpp/MultithreadingCpp/Intro/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_d8cf6/fast' failed
+make: *** [cmTC_d8cf6/fast] Error 2
 
 
